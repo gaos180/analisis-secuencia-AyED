@@ -1,0 +1,13 @@
+Reporte de la secuencia
+Reporte de la secuencia
+Puntaje total (Score): 11
+Porcentaje de Similitud: 75%
+------------------------------------
+Secuencia número 1:
+ATCG
+------------------------------------
+Secuencia número 2:
+ACG
+------------------------------------
+Secuencia alineada:
+A-CG
