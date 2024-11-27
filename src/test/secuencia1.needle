@@ -1,0 +1,185 @@
+########################################
+# Program: needle
+# Rundate: Mon 25 Nov 2024 19:13:09
+# Commandline: needle
+#    [-asequence] secuencia1.fna
+#    [-bsequence] secuencia2.fna
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: secuencia1.needle
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 
+# 2: 
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1853
+# Identity:     863/1853 (46.6%)
+# Similarity:   863/1853 (46.6%)
+# Gaps:         765/1853 (41.3%)
+# Score: 1752.5
+# 
+#
+#=======================================
+
+                   1 -------TTTCGAGAAA-----------TTTCATATTCCTCTGGCATAAC     32
+                            |.||..||||           |||||||.|.||.|        
+                   1 ATGTATTTATCATGAAAACCTATTGTTTTTTCATAATGCTTT--------     42
+
+                  33 TCCATCACGAGCATTTACTAAAAATAAAATTCCGTCGCATTCTTTAATTG     82
+                                  ||||.||.|.|                  |||||..|
+                  43 -------------TTTAATAGAGA------------------TTTAAAGG     61
+
+                  83 CTTTTAAGGTTTGTTCATGACTTTGTTTTTCTAT----TTTT------TG    122
+                     |.||.||   ||||||    |.||.||.||||||    ||.|      ||
+                  62 CATTAAA---TTGTTC----CATTATTCTTCTATAACATTGTCAAGAATG    104
+
+                 123 TGATTTAAAATT---GA-----------TTCCTGCT-----GTA---TCT    150
+                     ..|.||||||||   ||           |..|||||     |||   |||
+                 105 ATAGTTAAAATTCTCGAAATTGGGATATTAACTGCTTTGGAGTAATTTCT    154
+
+                 151 -ACTATAGTTATTTTTTTATTTTCTTTTA--AGTA-ACAA-TATCCATAA    195
+                      |||       ||||.|.||..|||||.|  .||| |.|| |.|.||   
+                 155 AACT-------TTTTGTCATACTCTTTGACTTGTATAGAAGTGTACA---    194
+
+                 196 TTTCTGTCTCTAGTAAGTC--CGGGATAATCAGCAACTAAT----GCATT    239
+                       .||||.||||||...||  .|.|.|.|.|||.|||||.|    |.|||
+                 195 --CCTGTATCTAGTTTTTCTTGGCGTTCAACAGGAACTATTCCTGGTATT    242
+
+                 240 TCTTGTTTTACTT--------AATA---------------------TATT    260
+                     | ||||||||..|        ||||                     |.||
+                 243 T-TTGTTTTAGGTTGGGGAGGAATAGGCTGTGGTTGTGTGAATTGTTGTT    291
+
+                 261 AAATAAAGTAGATTTTCCTACATTAGTGC-GTCCAATTAATACGATTATA    309
+                     .|| ||..|.||||||      ||  ||| ||  ||  .|.||.||||| 
+                 292 GAA-AATTTTGATTTT------TT--TGCTGT--AA--GAAACCATTAT-    327
+
+                 310 GGTAACATAATAAGATAT--CCATTTTTATT----TT---AATTTTTGCA    350
+                               ||.|||||  ..|.||||.||    ||   |||      |
+                 328 ----------TATGATATTGAAAATTTTGTTCCTCTTGAAAAT------A    361
+
+                 351 TTTATCTTTTTATTTCGTT--------AATTTTCATGTTAATAA----TT    388
+                     |.|.||||||  |||.|||        ||.|||.|||  ||.||    ||
+                 362 TCTCTCTTTT--TTTGGTTTTCCAGAAAAATTTGATG--AAAAAGATTTT    407
+
+                 389 TCTTTAGATGCATTAGATTTTTCAAG-GTATTTACTTTTTTTCCATGCTA    437
+                     ||||      ||||..|.|||||||| .|||||.|.||||.|..||    
+                 408 TCTT------CATTTCAATTTTCAAGATTATTTTCATTTTGTTGAT----    447
+
+                 438 ATATT-------GCTTTTTTAATCTCTTTATTTTTCAT-AAAAATATCAC    479
+                     .||||       |||.||..|||...||..|||||.|| |||||.||   
+                 448 TTATTTGCTCAGGCTGTTGAAATGAATTATTTTTTGATCAAAAAGAT---    494
+
+                 480 CTTT---CATGTTTTCTAC-------TATATTTTTCCAAGAAT----TG-    514
+                      |||   .|.||||| |.|       .|||....||||| |||    || 
+                 495 -TTTGGAAAGGTTTT-TTCAAAAGCAGATAAAGGTCCAA-AATCAAATGA    541
+
+                 515 -------TCTTT---------TATTTCTTCTAGTATTTTT-----ATTGC    543
+                            |||||         |.|||||||   |.|||||     |||  
+                 542 AGATGAATCTTTGTCAAAAGATGTTTCTTC---TCTTTTTGACAAATT--    586
+
+                 544 ATCTTGATTTTTATT----TTGTTGTATTTTTATTTTTGCGATTCTTATT    589
+                        |||.||||.|||    |     ||||||||||||.|.|  |.|||.|
+                 587 ---TTGTTTTTGATTAAACT-----TATTTTTATTTTGGGG--TGTTACT    626
+
+                 590 TTTAGAATGTTTTGT-------AAATTTTCTTCT-------TTTGT----    621
+                     |||    |.||||.|       ||||.|||||||       |||||    
+                 627 TTT----TCTTTTATGGAAAACAAATCTTCTTCTAAAAGACTTTGTTCTG    672
+
+                 622 ----AT-ATTTTAAGCTATTGTTTAATTGTATTAAAGCTTTATCTAAATT    666
+                         || ||.||..||||           .||.||||        ||   
+                 673 GGTCATCATCTTGTGCTA-----------AATCAAAG--------AA---    700
+
+                 667 TTTATCTAAAATATATTTTTTTGCTAAAAAAAGAGAAGATAAAGTGCCAT    716
+                            ||||..|.|.||||||.||..||..||.|...|||..|||  |
+                 701 -------AAAACGTTTCTTTTTGTTATTAATGGACATTGTAATTTGC--T    741
+
+                 717 AAAT-----ATTT------TTATTTTCTGTAATAAAAT-----TTTCAAC    750
+                     ||||     ||||      ||| |||||      ||||     |||..|.
+                 742 AAATTTAGGATTTCTTTTGTTA-TTTCT------AAATACTCATTTAGAT    784
+
+                 751 ACTTTTTAGATTTTGAT--------TGTTCTTTGCATTTATTTTTTTTA-    791
+                     |.||||||..|..||||        ||.|.||.|||   ||||||..|| 
+                 785 ATTTTTTACTTGGTGATGATACTAATGATATTGGCA---ATTTTTCATAA    831
+
+                 792 -TTACTTCT--TCAT-ATCTT----------------AATTTTT------    815
+                      .|||..||  |.|| ||.||                |||||||      
+                 832 CCTACAGCTGCTGATGATTTTGATGTCAGAGAAACAAAATTTTTAGAAAA    881
+
+                 816 --CTA-ATTTTAATTTCTTTT--CTTTTGGTTTTA--TAAACCAAAAACT    858
+                       ||| |||   ||||.||||  ||||| ||||||  ||||.|.|..|||
+                 882 AGCTACATT---ATTTTTTTTAGCTTTT-GTTTTAGCTAAATCTATTACT    927
+
+                 859 ACAAAATATAAAAAAAATGAGAAAAAA---TAA----------TACTAAA    895
+                     .|     ||.|..||.|.|||.|..||   |||          .||||||
+                 928 TC-----ATTATGAAGACGAGTACGAACGTTAACTTTTGTAGGAACTAAA    972
+
+                 896 TAT-GTTTTTAAAGA----TACTTTTTTCATTTTATTTAAATGCATTTCT    940
+                      || |||||  ||||    ||.|||||||      .|||||||  |.|||
+                 973 -ATAGTTTT--AAGATTTGTATTTTTTTC------CTTAAATG--TATCT   1011
+
+                 941 ATT-TTTC--CTTATTCCTTGTTTTTTAAA----------AATAT--AT-    974
+                     ||| ||||  | |||||     |..|.|||          |||||  || 
+                1012 ATTGTTTCAAC-TATTC-----TCATCAAACCTAGCATCGAATATTGATC   1055
+
+                 975 TGTTTAAAA-------------ACACCTTTTATAC-----GGAG------   1000
+                     ||.||.|||             |||.||..||.||     |.||      
+                1056 TGGTTCAAAGGGAATAACTATGACATCTGATAAACTCATTGCAGTAGAAA   1105
+
+                1001 -----------ATATT--------TTTTTAATTTTTAAAAAAAATT-ATA   1030
+                                |||||        |.|.|||    |||||.||||| |||
+                1106 CTAAAGTTGCCATATTTGGTGGTGTATCTAA----TAAAACAAATTCATA   1151
+
+                1031 ----------------------ATGAATGCAATAT--------TAATTTT   1050
+                                           ||...|||.||||        |.||.||
+                1152 TCTTTTTGCTAGTTGCTTAACTATTTCTGCTATATCTGAGGCCTTATATT   1201
+
+                1051 TTTTAGAATAAATTTTTATTT------AATTTTGATTAAAAT--------   1086
+                     |||||....|.||.|.|||.|      ||||..|.|.|||||        
+                1202 TTTTACGTGATATGTCTATATCAGCAAAATTAAGTTCAAAATTACAAGGA   1251
+
+                1087 --AATA---------GCATATAAAAAAAG-----------TTATTCGTAT   1114
+                       ||||         .||||||.|.|.||           .||||...||
+                1252 AGAATATCAAGTCCCTCATATACAGATAGCAAGCAATCATCTATTTCAAT   1301
+
+                1115 GAA--------AAACACT-AATTGT----------ACA------CAGTTA   1139
+                     |||        ||.|||| ||||.|          |||      ||.|||
+                1302 GAAATTATTTGAACCACTGAATTTTGGAACCTTCAACAAAATGTCAATTA   1351
+
+                1140 ----GTTAGTTCAAGAAGTTCTTTAA-----TTATC--AAT---------   1169
+                         |||| |||||     |||||.|     ||.||  |||         
+                1352 ACGTGTTA-TTCAA-----TCTTTCAGGGTTTTGTCCAAATGATGCAGAA   1395
+
+                1170 --------------GTCA----CACG--TGACTTATCCACAGATTTTGTG   1199
+                                   ||||    ||.|  ||||||.||    |..|||.||
+                1396 ACATTCCCCTGCCCGTCAAGATCAAGAATGACTTTTC----GCCTTTCTG   1441
+
+                1200 --------TTTACTAATAAT----AAATATTATTT---ATT-TCTTTTTT   1233
+                             ||.||.|||.||    .||.||||.||   ||| |..|||||
+                1442 GACAAAGTTTAACCAATGATCCTGCAACATTAGTTGCCATTGTAGTTTTT   1491
+
+                1234 -----------TTTTTTTTTTAAAAACAGAAAAACAATGTTTATTAATTT   1272
+                                |||.||.||||.||| |||     ||||           
+                1492 AATACGCCGCCTTTATTATTTACAAA-AGA-----AATG-----------   1524
+
+                1273 TTTTTCAGTATTTTAT-TTTAAATATTTATTATGTGTTATCTTGATTAAA   1321
+                              ||..||| ||||||                   ||||||.|
+                1525 ---------ATCATATATTTAAA-------------------TGATTATA   1546
+
+                1322 ATA-----TTAATACTGTATAGAATAATTTGAATATTTTAAAGGGTATTT   1366
+                     |||     ||||||||      ||.||    ||||.              
+                1547 ATATTTCTTTAATACT------AAAAA----AATAC--------------   1572
+
+                1367 GGC   1369
+                        
+                1572 ---   1572
+
+
+#---------------------------------------
+#---------------------------------------
